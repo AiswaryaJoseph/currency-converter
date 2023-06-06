@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Alfa+Slab+One&family=Bebas+Neue&family=Cabin+Sketch&family=Cookie&family=Courgette&family=Dancing+Script:wght@700&family=Dongle&family=Kanit&family=Karla&family=Oleo+Script&family=Pacifico&family=Pirata+One&family=Poppins:ital,wght@1,500&family=Rajdhani&family=Roboto+Slab&family=Rowdies:wght@700&family=Shrikhand&family=Tangerine:wght@700&family=Ubuntu&display=swap');
+
+body{
+   /* background-image: url("https://cutewallpaper.org/27/blue-electric-wallpaper-gif/wallpapers-3b22b-gif-245bc-wallpaper-b4ab1-cave.gif"); */
+   background-image: url('https://cutewallpaper.org/25/beautiful-wallpaper-for-computer-gif/2497731122.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* opacity:.6 */
+    /* background: linear-gradient(darkblue,grey,black); */
+}
+h1,h2{
+    font-family: 'Rowdies', cursive;
+    font-size: 40px;
+}
+input{
+    border:white;
+    border-radius: 10px;
+    padding-left: 20px;
+    width:100px;
+    height:40px;
+}
+label{
+    font-family: 'Courgette', cursive;
+    font-weight: 600;
+    font-size: 25px;
+}
+select{
+    border-radius: 10px;
+    width:100px;
+    height:40px;
+    padding:10px;
+}
+/* h3{
+    font-family: 'Oleo Script', cursive;
+    color:white;
+    font-weight: 900;
+    font-size: 80px;
+} */

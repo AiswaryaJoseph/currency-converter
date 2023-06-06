@@ -1,0 +1,36 @@
+<!-- <p>currency-converter works!</p> -->
+<h1 class="text-center text-light mt-5 p-5 "><img  width="150px" height="100px"src="https://ps.w.org/x-currency/assets/icon-256x256.gif?rev=2828102">Currency Converter</h1>
+
+<div class="row">
+    <div class="col-4 text-center p-5 "><label class="me-2 text-light bg-black">Enter value:</label><input type="text" [(ngModel)]="amount" ></div>
+    <div class="col-4 text-center p-5">
+        <label class="me-2 text-light bg-black">From:</label>
+        
+<select [(ngModel)]="fromCurrency" > 
+  <option value="select" selected hidden disabled>Select</option>
+  <option value="USD" hidden>USD</option>
+  <option value="EUR">EUR</option>
+  <option value="INR">INR</option>
+  <option value="KWD">KWD</option>
+
+</select>
+
+
+    </div>
+    <div class="col-4 text-center p-5"><label class="me-2  bg-black text-light">To:</label>
+        <select [(ngModel)]="toCurrency">
+          <option value="select" selected hidden disabled >Select</option>
+          <option value="USD">USD</option>
+          <option value="EUR" hidden disabled>EUR</option>
+          <option value="INR">INR</option>
+          <option value="KWD">KWD</option>
+        
+        </select>
+    </div>
+</div>
+
+
+
+
+<h2 class="text-center text-light  mt-5">Converted Amount:- {{ amount | currencyConverter: fromCurrency: toCurrency }}</h2>
+
